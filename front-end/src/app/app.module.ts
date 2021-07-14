@@ -8,8 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // material imports
 import { MatCardModule } from '@angular/material/card';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
-// product components
+// components do CRUD
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
@@ -28,7 +29,8 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
