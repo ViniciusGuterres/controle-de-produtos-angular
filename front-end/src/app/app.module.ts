@@ -7,7 +7,7 @@ import { HomeComponent } from './views/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // material imports
-// import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card'
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

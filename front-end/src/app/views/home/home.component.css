@@ -1,0 +1,11 @@
+.home .title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home {
+    font-size: 1.1em;
+    background-color: #e4e4e4;
+    margin: 20px;
+}
